@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Bmw</title>
+    <!-- swper css -->
+     <link rel="stylesheet" href="/css/swiper-bundle.min.css">"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .slide-container {
+         width: 61%;
+         background: #474242;
+         padding: 40px 0;
+         margin-top: -46%;
+         margin-left: 39%;
+            
+        }
+ 
+        .card {
+            background-color: #938d8d;
+            width: 243px;
+            height: 331px;
+        }
+ 
+        .card-image {
+            position: relative;
+            height: 325px;
+            width: 239px;
+            background-color: #393030;
+            padding: 3px;
+        }
+ 
+        .card-image .card-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="home_bmw">
+        <div class="head_secsion">
+            <nav>
+                <ul>
+                    <li><a class="footerlink" href="#">Home</li></a>
+                    <li><a class="footerlink" href="https://www.bmw.com/en/circular-world.html">CircularWorid</li></a>
+                    <li><a class="footerlink" href="https://www.bmw.com/en/digital-journey.html">DigitalJourney</li></a>
+                    <li><a class="footerlink" href="https://www.bmw.com/en/electric-future.html">Electric Future</li></a>
+                    <li><a class="footerlink" href="https://www.bmw.com/en/freude.html">Freude</li></a>
+                    <li><a class="footerlink" href="https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-">Models</li></a>
+                    <hr id="horizondal-homeline">
+                    <h3 id="hedrh3">Sheer Driving Pleasure</h3>
+                </ul>
+            </nav>
+
+            <form action="">
+                <input type="search" placeholder="search here....">
+                <i class="fa fa-search"></i>
+            </form>
+            <div class="Home_logo">
+                <a href="http://127.0.0.1:5500/index.html#">
+                    <img src="img/LogoBmw.svg">
+                </a>
+            </div>
+            <div class="Home_txtbody">
+                <a href="https://www.bmw.com/en/freude/25-years-of-the-bmw-x5-changing-with-the-times.html">
+                    <h3>25-year anniversary</h3>
+                </a>
+                <a class="homlinks"  href="https://www.bmw.com/en/freude/25-years-of-the-bmw-x5-changing-with-the-times.html">
+                    <h2>The BMW X5 through the ages</h2>
+                </a>
+                <a href="https://www.bmw.com/en/freude/25-years-of-the-bmw-x5-changing-with-the-times.html">
+                    <button class="Home_buton">Read more
+                    </button>
+                </a>
+                    
+            </div>
+           
+        </div>
+        <div class="Body_frestsection">
+            <div class="Home_txtbodyleft">
+                <a class="homlinks"  href="https://www.bmw.com/en/podcasts/game-changer-podcast.html">
+                    <h3 >GAME CHANGER</h3>
+                </a>
+                <a class="homlinks"  href="https://www.bmw.com/en/podcasts/game-changer-podcast.html">
+                    <h2>An auodio Seeries about <br> those who change the <br> world around them</h2>
+                </a>
+                <a href="https://www.bmw.com/en/podcasts/game-changer-podcast.html">
+                    <button class="Home_buton">Read more
+
+                    </button>
+
+                </a>
+
+            </div>
+           
+            <div class="Home_txtbodyright">
+                <a href="https://www.bmw.com/en/automotive-life/prototype-cars.html">
+                    <h3 class="left_1texth3" >Erlkonig-German Prototype Cars</h3>
+                </a>
+                <a href="https://www.bmw.com/en/automotive-life/prototype-cars.html">
+                    <h2 class="left_1texth2">The art of deception</h2>
+                </a>
+                <a href="https://www.bmw.com/en/automotive-life/prototype-cars.html">
+                    <button class="left_1button">Read more
+                    </button>
+                </a>
+                    
+
+            </div>
+        </div>
+        <div class="therd-section">
+            <div class="therd-section_text1"> 
+                <h3 class="therd-section_text1-1">Learn everything about <br> BMW herr</h3>
+                <div class="therd-section_text1-linkbotton">
+                    <span >&#10095</span><a href="https://www.bmw.com/en/freude/notes.html" target="_blank">BMWNEWS</a>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="image">
+                    <img src="img/Carimg3.1.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="img/Carimg3.2.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="img/imag3.2.jpg" alt="">
+                </div>
+                
+                <div class="button">
+                    <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+                    <a onclick="nextimg(1)" class="next">&#10095;</a>
+                </div>
+            
+                <div class="dots">
+                    <span class="dot" onclick="currentslide(1)"></span>
+                    <span class="dot" onclick="currentslide(2)"></span>
+                    <span class="dot" onclick="currentslide(3)"></span>
+                </div>
+            </div>
+
+            <div class="therd-section">
+                <div class="vidio1">
+                    <video  autoplay loop  src="vidio/bmw.logovidio.mp4" width="60%"></video>
+                </div>
+               
+            </div>
+                <div class="therd-section3thtext">
+                    <h3>Become a BMW expert</h3>
+                <div class="therd-section3-1text">
+                    <span >&#10095</span><a href="https://www.bmw.com/en/bmw-explained.html">BMWEXPLAINED</a>
+                </div>
+           
+        </div>
+                <div class="fifthsection">
+                    <div class="fifthtextsection">
+                      <h1>The BMW <br> Podcast:<br> Changing<br> Lanes</h1>
+                    </div>
+                    <div class="fifthparsection">
+                        <p>Changing Lanes is the official podcast from <br>BMW. In these audio series, we take you <br>with us on new journeys through the BMW<br> universe. Find out more about<br> sustainability, innovation, technology,<br> mobility and the latest trends. You can find<br> and subscribe to Changing Lanes on all<br> major podcast platforms, so tune in!</p>
+                    </div>
+                    <a href="https://www.bmw.com/en/podcasts-overview.html">
+                        <button class="Home_buton">Listen now
+
+                        </button>
+                    </a>
+                    
+                    <!-- <div class="fifthanimasionsection"> -->
+   <div class="slide-container swiper">
+       <div class="slide-content swiper-wrapper">
+           <div class="card swiper-slide">
+               <div class="image-content">
+                   <span class="overlay"></span>
+                   <div class="card-image">
+                       <img src="img/Carimg3.2.webp" alt="" class="card-img">
+                   </div>
+               </div>
+           </div>
+           <div class="card swiper-slide">
+               <div class="image-content">
+                   <span class="overlay"></span>
+                   <div class="card-image">
+                       <img src="img/fifthanimasionimg2.webp" alt="" class="card-img">
+                   </div>
+               </div>
+           </div>
+           <div class="card swiper-slide">
+               <div class="image-content">
+                   <span class="overlay"></span>
+                   <div class="card-image">
+                       <img src="img/fifthanimasionimg.webp" alt="" class="card-img">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="swiper-button-next"></div>
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-pagination"></div>
+
+</div>
+
+                <div class="sixthsection">
+                    <h3 class="sixthsectionh3">BMW in your country</h3>
+                    <h1 class="sixthsectionh1">ALL BMW MODELS</h1>
+                    <div class="sixthsectionboton">
+                        <span>&#10095</span><a href="https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-almo-.-.-home-models">findyourBMW</a>
+                    </div>
+
+                </div>
+
+                <div class="images-condainermain"><!-- images condainers start -->
+                    <div class="images-condainer1">
+                        <h3 class="txt-imagesgridh3_1"> Hydrogen</h3>
+                        <h4 class="txt-imagesgridh4_1"> The BMW journey to the mobility of the future</h4>
+                    </div>
+                    <div class="images-condainer2">
+                        <h4 class="txt-imagesgridh3_2">BMW Wallpapers</h4>
+                       
+                    </div>
+                    <div class="images-condainer3">
+                        <h3 class="txt-imagesgridh3_3"> BMW explained</h3>
+                        <h4 class="txt-imagesgridh4_3"> BMW History: 17 iconic double kidney grille <br> desins</h4>
+                    </div>
+                    <div class="images-condainer4">
+                        <h3 class="txt-imagesgridh3_4">Art and Speed</h3>
+                        <h4 class="txt-imagesgridh4_4"> Herve Poulain - the visionsry behind the <br> BMW Art Car</h4>
+                    </div>
+                    <div class="images-condainer5">
+                        <h3 class="txt-imagesgridh3_5">BMW Welt,BMW Museum,and BMW M Driving <br> Academy</h3>
+                        <h4 class="txt-imagesgridh4_5">BMW Munich Experience </h4>
+                    </div>
+                    <div class="images-condainer6">
+                        <h3 class="txt-imagesgridh3_6"> BMW Concept Skytop </h3>
+                        <h4 class="txt-imagesgridh4_6"> The fusion of tradition and modernity</h4>
+                    </div>
+                    <div class="images-condainer7">
+                        <h3 class="txt-imagesgridh3_6"> BMW Art Car #20</h3>
+                        <h4 class="txt-imagesgridh4_6"> Julie Mehretu-dynamics in from</h4>
+                    </div>
+                    <div class="images-condainer8">
+                        <h3 class="txt-imagesgridh3_8">Wild at Art</h3>
+                        <h4 class="txt-imagesgridh4_8"> The History of the BMW Art Cars</h4>
+                    </div>
+                    <div class="images-condainer9">
+                        <h3 class="txt-imagesgridh3_6">The BMW XM MYSTIQUE ALLURE</h3>
+                        <h4 class="txt-imagesgridh4_6"> Tailored With high-fashion matirials</h4>
+                    </div>
+                    <div class="images-condainer10">
+                        <h3 class="txt-imagesgridh3_6"> Art meets Innovation </h3>
+                        <h4 class="txt-imagesgridh4_6"> The BMW I5 Flow NOSTOKANA</h4>
+                    </div>
+                    <div class="images-condainer11">
+                        <h3 class="txt-imagesgridh3_6"> The fture of luxury</h3>
+                        <h4 class="txt-imagesgridh4_6"> Digital art meets mobility</h4>
+                    </div>
+                    <div class="images-condainer12">
+                        <h3 class="txt-imagesgridh3_6">BMW Vision Neue Klasse X</h3>
+                        <h4 class="txt-imagesgridh4_6"> The BMW journey to the mobility of the future</h4>
+                    </div>
+                    <div class="images-condainer13">
+                        <h3 class="txt-imagesgridh3_8"> Hydrogen</h3>
+                        <h4 class="txt-imagesgridh4_8"> Welocome of the New Class Family from BMw </h4>
+                    </div>
+                    <div class="images-condainer14">
+                        <h3 class="txt-imagesgridh3_6"> BMW Mx</h3>
+                        <h4 class="txt-imagesgridh4_6">Attention to detail comes in a double pack </h4>
+                    </div>
+                    <div class="images-condainer15">
+                        <h3 class="txt-imagesgridh3_6">Tactile fascination </h3>
+                        <h4 class="txt-imagesgridh4_6"> A touch of the future with BMW</h4>
+                    </div>
+                    <div class="images-condainer16">
+                        <h3 class="txt-imagesgridh3_6"> Hydrogen</h3>
+                        <h4 class="txt-imagesgridh4_6"> The BMW journey to the mobility of the future</h4>
+                    </div>
+                    <div class="images-condainer17">
+                        <h4 class="txt-imagesgridh4_17"> Accept no Imitations</h4>
+                    </div>
+                    <div class="images-condainer18">
+                        <h3 class="txt-imagesgridh3_18">BMW flim</h3>
+                        <h4 class="txt-imagesgridh4_18">Freude stays forever</h4>
+                    </div>
+                    <div class="images-condainer19">
+                        <h3 class="txt-imagesgridh3_6">Rebelle Rally</h3>
+                        <h4 class="txt-imagesgridh4_6"> An off-road adventure in the BMW X2</h4>
+                    </div>
+                    <div class="images-condainer20">
+                        <h3 class="txt-imagesgridh3_8">BMW and superheroes</h3>
+                        <h4 class="txt-imagesgridh4_8">Freeing Gaia P0dcast</h4>
+                    </div>
+                    <div class="images-condainer21">
+                        <h3 class="txt-imagesgridh3_6">Creative joy</h3>
+                        <h4 class="txt-imagesgridh4_6">Luxury redefined</h4>
+                    </div>
+                    <div class="images-condainer22">
+                        <h3 class="txt-imagesgridh3_6">The ftur is bright</h3>
+                        <h4 class="txt-imagesgridh4_6"> The pioneering light concept of the BMW Vision Neue Klasse</h4>
+                    </div>
+                    <div class="images-condainer23">
+                        <h3 class="txt-imagesgridh3_6">innovatively mobile</h3>
+                        <h4 class="txt-imagesgridh4_6">BMW i5: with dinamism and a helping hand </h4>
+                    </div>
+                    <div class="images-condainer24">
+                        <h3 class="txt-imagesgridh3_6"> Hydrogen</h3>
+                        <h4 class="txt-imagesgridh4_6"> The BMW journey to the mobility of the future</h4>
+                    </div>
+                </div><!-- images condainers end -->
+                <div class="futorsection"><!-- start of futor lists -->
+                    <div class="futorferstsection">
+                        <ul class="futorferstsectionhead">
+                            <a href="https://www.bmw.com/en/index.html">
+                                <li class="futorferstsectionlist" >English</li>
+                            </a>
+                            <a href="https://www.bmw.com/de/index.html">
+                                <li class="futorferstsectionlist" >Deutsch</li>
+                            </a>
+                            <a href="https://www.bmw.com/it/index.html">
+                                <li class="futorferstsectionlist" >Italiano</li>   
+                            </a>
+                            <a href="https://www.bmw.com/fr/index.html">
+                                <li class="futorferstsectionlist" >Francais</li>
+                            </a>
+                            <a href="https://www.bmw.com/es/index.html">
+                                <li class="futorferstsectionlist" >Espanol</li>
+                            </a>
+                            <a href="https://www.bmw.com/ja/index.html">
+                                <li class="futorferstsectionlist" >中国人</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="futorsecondsection">
+                        <ul class="futorsectioncomenul">
+                            <h1 class="futorsectioncomenheading">Quick Links</h1>
+                            <hr class="futorsectioncomenline">
+                            <a href="https://www.bmw.com/en/index.html">
+                                <li class="futorsectioncomenlist">Home</li>
+                            </a>
+                            <a href="https://www.bmw.in/en/index.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-footer">
+                                <li class="futorsectioncomenlist">BMW in yor country</li>
+                            </a>
+                            <a href="https://www.bmwgroup.jobs/de/en.html">
+                                <li class="futorsectioncomenlist"> BMW Group Careers</li>
+                            <a href="https://www.bmw.com/en/footer/eu-detergents-regulation/eu-detergents-overview.html">
+                                <li class="futorsectioncomenlist"> EU Detergents <br> Regulation </li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/reach-campaign.html">
+                                <li class="futorsectioncomenlist"> RACH Regulation</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/software-updates.html">
+                                <li class="futorsectioncomenlist">Compatibility Check</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/software-updates.html">
+                                <li class="futorsectioncomenlist">Software Updte</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/accessories-updates.html">
+                                <li class="futorsectioncomenlist">Accessories Update</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/connectedtestvehicles/connectedtestvehicle-overview.html">
+                                <li class="futorsectioncomenlist">Connected Test Vehicle</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/index.html">
+                                <li class="futorsectioncomenlist">Service Page Charging Products</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/cooperationtestcar/cooperationtestcar-overview.html">
+                                <li class="futorsectioncomenlist">COOPERATION Test Car</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/eu-battery-regulation.html">
+                                <li class="futorsectioncomenlist">EU Battery Regulation</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="futortherdsection">
+                        <ul class="futorsectioncomenul">
+                            <h1 class="futorsectioncomenheading">More BMW Websites</h1>
+                            <hr class="futorsectioncomenline">
+                            <a href="">
+                                <li class="futorsectioncomenlist">BMW M</li>
+                            </a>
+                            <a href="https://www.bmw-m.com/en/index.html">
+                                <li class="futorsectioncomenlist">BMW M Motorsport</li>
+                            </a>
+                            <a href="https://www.bmw-m.com/en/fastlane/motorsport/motorsport.html">
+                                <li class="futorsectioncomenlist">BMW Golfsport</li>
+                            </a>
+                            <a href="https://www.bmw-m.com/drivingexperience">
+                                <li class="futorsectioncomenlist">BMW M Driving Experience</li>
+                            </a>
+                            <a href="https://www.bmw-welt.com/en/index.html">
+                                <li class="futorsectioncomenlist">BMW Welth</li>
+                            </a>
+                            <a href="https://www.bmwgroup-classic.com/en.html">
+                                <li class="futorsectioncomenlist">BMW Group Classic</li>
+                            </a>
+                            <a href="https://www.bmw-special-sales.com/en/index.html">
+                                <li class="futorsectioncomenlist">BMW Corporate/Direct Sales</li>
+                            </a>
+                            <a href="https://www.bmwgroup.com/en.html">
+                                <li class="futorsectioncomenlist">BMW Group</li>
+                            </a>
+                            <a href="https://www.bmwgroup.com/en/sustainability/gesellschaft.html#tabswitch-43d094f75a-tab2ID">
+                                <li class="futorsectioncomenlist">BMW Group Culture</li>
+                            </a>
+                            <a href="https://www.bmw.co.uk/en/shop/ls/cp/connected-drive">
+                                <li class="futorsectioncomenlist">BMW ConnectedDrive Upgrdes</li>
+                            </a>
+
+                        </ul>
+                    </div>
+                    <div class="futorforthsection">
+                        <ul class="futorsectioncomenul">
+                            <a href="https://www.bmw.com/en/bmw-explained.html">
+                                <h1 class="futorsectioncomenheading">BMW.come</h1>
+                            </a>
+                            <hr class="futorsectioncomenline">
+                            <a href="https://www.bmw.com/en/footer/about-bmw-com.html">
+                                <li class="futorsectioncomenlist">About BMW.come</li>
+                            </a>
+                            <a href="https://www.bmwgroup.com/en/general/kontakt.html">
+                                <li class="futorsectioncomenlist">Contact</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/cookies.html">
+                                <li class="futorsectioncomenlist">Cookies</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/imprint.html">
+                                <li class="futorsectioncomenlist">Imprint</li>
+                            </a>
+                            <a href="https://www.bmw.com/en/footer/legal-notice.html">
+                                <li class="futorsectioncomenlist">Legai Notice/Data protection</li>
+                            </a>
+                           
+                        </ul>
+                    </div>
+                    <div class="futorsixthsection">
+                        <ul class="futorsectioncomenul">
+                            <h1 class="futorsectioncomenheading">Visit us on</h1>
+                            <hr class="futorsectioncomenline">
+                        <a href="https://www.facebook.com/BMW/">
+                            <li class="futorsectioncomenlist">Facebook</li>
+                        </a>
+                        <a href="https://x.com/bmw">
+                            <li class="futorsectioncomenlist">X</li> 
+                        </a>
+                        <a href="https://www.instagram.com/bmw/">
+                            <li class="futorsectioncomenlist">Instagram</li> 
+                        </a>
+                        <a href="https://www.youtube.com/user/BMW">      
+                            <li class="futorsectioncomenlist">You Tube</li>   
+                        </a>          
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="lasttext">BMW AG 2024</h5>
+                     </div>
+                 </div><!-- end of futor lists -->
+            <script>
+                var imageno = 1;
+                displayimg(imageno);
+
+                function nextimg(n) {
+                displayimg(imageno += n);
+                }
+
+                function currentslide(n) {
+                displayimg(imageno = n);
+                }
+
+                function displayimg(n) {
+                var i;
+                var images = document.getElementsByClassName("image");
+                var dots = document.getElementsByClassName("dot");
+
+                if (n > images.length) {
+                    imageno = 1;
+                }
+                if (n < 1) {
+                    imageno = images.length;
+                }
+
+                // Hide all images and remove 'active' from all dots
+                for (i = 0; i < images.length; i++) {
+                    images[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+
+                // Show the current image and add 'active' to the corresponding dot
+                images[imageno - 1].style.display = "block";
+                dots[imageno - 1].className += " active";
+                }               
+            </script>
+        </div>
+    </body>
+        <!-- swiper js -->
+        <script src="js/swiper-bundle.min.js"></script>
+        <!-- javascript -->
+        <script src="js/script.js"></script>
+</html>
+         
